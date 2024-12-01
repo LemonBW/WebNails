@@ -1,4 +1,11 @@
-let video = document.getElementsByClassName("welcome-video")[0];
-document.body.addEventListener('click', () => {
-    video.play();
-});
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+function App() {
+    return (
+        <h1>Hello, React!</h1>
+    );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
